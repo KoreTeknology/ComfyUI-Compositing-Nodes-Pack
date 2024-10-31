@@ -1,4 +1,4 @@
-# ComfyUI Essential Nodes Pack
+# ComfyUI Compositing Nodes Pack
 
 <img src="https://img.shields.io/badge/ComfyUI-0.2.6+-green" /> <img src="https://img.shields.io/badge/Custom-Nodes-blue" /> <img src="https://img.shields.io/badge/NAI-00-ffae00" />
 ```py
