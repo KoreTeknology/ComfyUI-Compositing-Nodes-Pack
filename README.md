@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/ComfyUI-0.2.6+-green" /> <img src="https://img.shields.io/badge/Custom-Nodes-blue" /> <img src="https://img.shields.io/badge/NAI-00-ffae00" />
 ```py
-VERSION: Pre-Alpha Release: 1.1 - Licensed under Apache License v2.0
+VERSION: Pre-Alpha Release: 1.1 - Licensed under GNU General Public License V3
 NOTE: This project is supported by our community > linkedin.com/groups/13109092/
 USER: https://github.com/KoreTeknology
 ```
