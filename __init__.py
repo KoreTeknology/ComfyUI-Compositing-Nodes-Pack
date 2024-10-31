@@ -10,7 +10,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {}
 if init():
     # CHECK FOR NODES DIRECTORY
     py = get_ext_dir("py")
-    print("🛡️🛡️🛡️ComfyUI Essential Nodes Pack: DIR Nodes = " + py)
+    print("🛡️🛡️🛡️ComfyUI Compositing Nodes Pack: DIR Nodes = " + py)
     
     # CHECK FOR FILES
     files = glob.glob(os.path.join(py, "*.py"), recursive=False)
@@ -22,7 +22,7 @@ if init():
         sys.modules[name] = module
         spec.loader.exec_module(module)
         # Console list of all the nodes files
-        print("🛡️🛡️🛡️ComfyUI Essential Nodes Pack: Loading " + file)
+        print("🛡️🛡️🛡️ComfyUI Compositing Nodes Pack: Loading " + name)
         # Register and update each class from the files
         if hasattr(module, "NODE_CLASS_MAPPINGS") and getattr(module, "NODE_CLASS_MAPPINGS") is not None:
             NODE_CLASS_MAPPINGS.update(module.NODE_CLASS_MAPPINGS)
