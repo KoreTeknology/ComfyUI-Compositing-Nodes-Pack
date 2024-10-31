@@ -2,9 +2,12 @@
 
 <img src="https://img.shields.io/badge/ComfyUI-0.2.6+-green" /> <img src="https://img.shields.io/badge/Custom-Nodes-blue" /> <img src="https://img.shields.io/badge/NAI-00-ffae00" />
 ```py
-VERSION: Pre-Alpha Release: 0.0.1 - Licensed under Apache License v2.0
+VERSION: Pre-Alpha Release: 1.1 - Licensed under Apache License v2.0
+NOTE: This project is supported by our community > linkedin.com/groups/13109092/
+USER: https://github.com/KoreTeknology
 ```
-### A set of custom nodes that everyone needs!
+
+### A set of custom nodes that everyone needs! 🎃
 
 This is set of custom nodes for your ComfyUI[^1] local installation. It offers the very basic nodes that are missing in the official "Vanilla" package.
 It is a research Node based project on *Artificial Intelligence* using ComfyUI visual editor. This repository also includes a set of workflows to test the nodes.
