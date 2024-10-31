@@ -1,4 +1,4 @@
-# ComfyUI Essential Nodes Pack
+# ComfyUI Compositing Nodes Pack
 
 <img src="https://img.shields.io/badge/ComfyUI-0.2.6+-green" /> <img src="https://img.shields.io/badge/Custom-Nodes-blue" /> <img src="https://img.shields.io/badge/NAI-00-ffae00" />
 ```py
@@ -18,8 +18,11 @@ Here is an overview of the nodes available in this first version of the pack. Th
 - **Image Brigthness** &nbsp;&nbsp; Value: 0.0>5.0 
 - **Image Contrast** &nbsp;&nbsp; Value: 0.0>5.0
 - **Image Greyscale** &nbsp;&nbsp; No Value
+- **Image RGB** &nbsp;&nbsp; Values: Red,Green, Blue (0-255)
 - **Image Flip** &nbsp;&nbsp; Values: x/y/xy
 - **Image Rotate** &nbsp;&nbsp; Value: Degree
+
+Some extra nodes we need sometimes:
 - **Get Text** &nbsp;&nbsp; Value: String
 - **Set Text** &nbsp;&nbsp; Value: String
 - **Note Advanced** &nbsp;&nbsp; Values: String, String
