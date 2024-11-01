@@ -46,10 +46,13 @@ Here is an overview of the nodes available in this first version of the pack. Th
 
 Some extra nodes we need sometimes:
 
-- **Get Text** &nbsp;&nbsp; Value: String
-- **Set Text** &nbsp;&nbsp; Value: String
-- **Note Advanced** &nbsp;&nbsp; Values: String, String
-- **Math Operation** &nbsp;&nbsp; Values: a, b, Mode, Type
+<table>
+<tr><th align="left", width="250">Nodes</th><th align="left", width="432">Values</th><th align="left", width="200">State</th></tr>
+<tr><td><a href="/">Set Text</a></td><td align="left">String</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Get Text</a></td><td align="left">String</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Note Advanced</a></td><td align="left">String, String</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Math Operation</a></td><td align="left">a, b, Mode, Type</td><td align="left">✔️</td></tr>
+</table>
 
 ## 🛡️ Menu Items
 
