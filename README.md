@@ -57,6 +57,9 @@ One of the principles of creating this node pack is to integrate the node names 
 
 <img alt="essential Nodes Pack MENUS" src="/media/screenshot_CENP_menu.png">
 
+## 🛡️ Settings
+
+One of the next planned update is to add a dedicated panel into comfyUI settings window to activate/desactivate each node from the pack. User may use these settings if he wants tu use an alternative node from his installed ones. this avoid getting to much "doubles" into the main node menu.
 
 ---
 
