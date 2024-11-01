@@ -19,13 +19,14 @@ It is a research Node based project on *Artificial Intelligence* using ComfyUI v
 Here is an overview of the nodes available in this first version of the pack. These correspond to those that I use every day, during my work or in my classes. Others will follow when they are tested and validated. I was inspired by many other developers to create these nodes, even if I had to rewrite most of the scripts myself, for the sake of consistency and integration into comfyUI.
 
 <table>
-<tr><th align="left", width="250">Nodes</th><th align="left", width="632">Values</th></tr>
-<tr><td><a href="/">Image Brigthness</a></td><td align="left">0.0>5.0 / Step: 0.1</td></tr>
-<tr><td><a href="/">Image Contrast</a></td><td align="left">0.0>5.0 / Step: 0.1</td></tr>
-<tr><td><a href="/">Image Greyscale</a></td><td align="left">No value</td></tr>
-<tr><td><a href="/">Image RGB</a></td><td align="left">Red,Green, Blue (0-255 /Step: 1)</td></tr>
-<tr><td><a href="/">Image Flip</a></td><td align="left">x / y / xy</td></tr>
-<tr><td><a href="/">Image Rotate</a></td><td align="left">Degree /Step: 1)</td></tr>
+<tr><th align="left", width="250">Nodes</th><th align="left", width="432">Values</th>><th align="left", width="200">State</th></tr>
+<tr><td><a href="/">Image Brigthness</a></td><td align="left">0.0>5.0 / Step: 0.1</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image Contrast</a></td><td align="left">0.0>5.0 / Step: 0.1</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image Greyscale</a></td><td align="left">No value</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image RGB</a></td><td align="left">Red,Green, Blue (0-255 /Step: 1)</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image Flip</a></td><td align="left">x / y / xy</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image Rotate</a></td><td align="left">Degree /Step: 1)</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image Difference</a></td><td align="left">-</td><td align="left">⚠️</td></tr>
 </table>
 
 Some extra nodes we need sometimes:
