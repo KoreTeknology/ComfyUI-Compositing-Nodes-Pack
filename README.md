@@ -86,6 +86,8 @@ If you want to follow the progress or/and participate, I invite you to connect w
 * Help options 
 * refactoring for 1.2 release
 
+Follow the development: [Here](dev.md)
+
 ---
 ## 🛡️ Infos
 
