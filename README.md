@@ -68,11 +68,11 @@ One of the next planned update is to add a dedicated panel into comfyUI settings
 
 ## 🛡️ ComfyUI Installation and Custom Nodes
 
-After installing [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) services with your prefered plateform (i am suggesting the use of [**Stability Matrix**](https://github.com/LykosAI/StabilityMatrix) as it is easy to install and give a lot of controls), make sure you install the additional and necessary custom nodes. Then you need to install [GIT software](https://git-scm.com/) (if it is not done already) on your computer. To install these custom nodes, open a CMD window in the \ComfyUI\custom_nodes folder. And "git clone" the Essential Pack. Or you can use the integrated manager:
+After installing [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) services with your prefered plateform (i am suggesting the use of [**Stability Matrix**](https://github.com/LykosAI/StabilityMatrix) as it is easy to install and give a lot of controls), make sure you install the additional and necessary custom nodes. Then you need to install [GIT software](https://git-scm.com/) (if it is not done already) on your computer. To install these custom nodes, open a CMD window in the \ComfyUI\custom_nodes folder. And "git clone" the Compositing Pack. Or you can use the integrated manager:
 
 - [ComfyUi-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 
-If you have already ComfyUI installed and working, you can simply copy and paste the **Essential nodes Pack** into the custom nodes folder. Enjoy!
+If you have already ComfyUI installed and working, you can simply copy and paste the **Compositing nodes Pack** into the custom nodes folder. Enjoy!
 
 ---
 
