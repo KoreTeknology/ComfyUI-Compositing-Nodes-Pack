@@ -92,7 +92,8 @@ Follow the development: [Here](DEV.md)
 ---
 ## 🛡️ Infos
 
-* Author: **Uriel Deveaud** - [Kore Teknology](https://github.com/KoreTeknology) 
+* Author: **Uriel Deveaud** [NAI-00] - [Kore Teknology](https://github.com/KoreTeknology)
+* Partners: **Techman Studio MX** - [techmanstudio.com](https://techmanstudio.com.mx/)
 * License: This project is released under the Apache 2.0 License.
 * This work is dedicated to all ComfyUI users and to all our students ;)
 
