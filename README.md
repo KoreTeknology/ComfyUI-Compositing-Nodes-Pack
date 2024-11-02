@@ -83,6 +83,7 @@ If you want to follow the progress or/and participate, I invite you to connect w
 
 ### PRIORITY LEVEL
 * Config JS extension panel (activate/desactivate individual nodes
+* Property panel with description, tips,etc...
 * Help options 
 * refactoring for 1.2 release
 
