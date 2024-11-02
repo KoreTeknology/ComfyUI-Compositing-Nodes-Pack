@@ -81,6 +81,11 @@ If you have already ComfyUI installed and working, you can simply copy and paste
 I'm currently working on a series of new nodes that will be added progressively to this pack. These are mainly oriented towards compositing and post-processing, using either the PIL library or OpenCV.
 If you want to follow the progress or/and participate, I invite you to connect with me on [LINKEDIN](https://www.linkedin.com/in/urieldeveaud/) and [ComfyUI For AI Media Production](https://www.linkedin.com/groups/13109092/), a group of users passionate about AI.
 
+### PRIORITY LEVEL
+* Config JS extension panel (activate/desactivate individual nodes
+* Help options 
+* refactoring for 1.2 release
+
 ---
 ## 🛡️ Infos
 
