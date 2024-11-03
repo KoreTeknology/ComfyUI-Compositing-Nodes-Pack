@@ -62,7 +62,10 @@ One of the principles of creating this node pack is to integrate the node names 
 
 ## 🛡️ Settings
 
-One of the next planned update is to add a dedicated panel into comfyUI settings window to activate/desactivate each node from the pack. User may use these settings if he wants tu use an alternative node from his installed ones. this avoid getting to much "doubles" into the main node menu.
+One of the next planned update is to add a dedicated panel into comfyUI settings window to activate/desactivate each node from the pack. 
+
+> [!IMPORTANT]
+> User may use these settings if he wants tu use an alternative node from his installed ones. this avoid getting to much "doubles" into the main node menu.
 
 ---
 
@@ -72,7 +75,8 @@ After installing [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) servic
 
 - [ComfyUi-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 
-If you have already ComfyUI installed and working, you can simply copy and paste the **Compositing nodes Pack** into the custom nodes folder. Enjoy!
+> [!TIP]
+> If you have already ComfyUI installed and working, you can simply copy and paste the **Compositing nodes Pack** into the custom nodes folder. Enjoy!
 
 ---
 
