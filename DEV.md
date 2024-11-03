@@ -6,8 +6,9 @@
 * node description
 
 ## New Nodes:
-*Image resize
-*Image Extend
-*Image Filter
-*Image Overlay
+
+* Image resize
+* Image Extend
+* Image Filter
+* Image Overlay
 
