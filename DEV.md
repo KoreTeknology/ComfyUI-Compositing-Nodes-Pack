@@ -1,7 +1,7 @@
 # Development Log
 
 ## Tasklist:
-* check propoerty panel UI
+* check property panel UI
 * update infos
 * node description
 
@@ -9,4 +9,5 @@
 *Image resize
 *Image Extend
 *Image Filter
+*Image Overlay
 
