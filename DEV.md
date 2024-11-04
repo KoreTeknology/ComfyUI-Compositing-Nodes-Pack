@@ -11,4 +11,7 @@
 * Image Extend
 * Image Filter
 * Image Overlay
+* Image Add/Extract Metadata
+* Image extract Palette
+* Image Apply Palette
 
