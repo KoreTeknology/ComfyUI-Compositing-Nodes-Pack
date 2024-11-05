@@ -7,7 +7,7 @@ NOTE: This project is supported by our community > linkedin.com/groups/13109092/
 USER: https://github.com/KoreTeknology
 ```
 
-### A set of custom nodes that everyone needs! 🎃
+### A set of custom nodes that everyone needs to work with composite images!
 
 This is set of custom nodes for your ComfyUI[^1] local installation. It offers the very basic nodes that are missing in the official "Vanilla" package.
 It is a research Node based project on *Artificial Intelligence* using ComfyUI visual editor. This repository also includes a set of workflows to test the nodes.
@@ -24,8 +24,8 @@ Here is an overview of the nodes available in this first version of the pack. Th
 <tr><th align="left", width="250">Nodes</th><th align="left", width="432">Values</th><th align="left", width="200">State</th></tr>
 <tr><td><a href="/">Image Flip</a></td><td align="left">x / y / xy</td><td align="left">✔️</td></tr>
 <tr><td><a href="/">Image Rotate</a></td><td align="left">Degree /Step: 1)</td><td align="left">✔️</td></tr>
-<tr><td><a href="/">Image Concatenate</a></td><td align="left">Inputs number, Direction, Match size</td><td align="left">⚠️</td></tr>
-<tr><td><a href="/">Image Extend</a></td><td align="left">Left, Right, Top, bottom, BG White %</td><td align="left">⚠️</td></tr>
+<tr><td><a href="/">Image Concatenate</a></td><td align="left">Inputs number, Direction, Match size</td><td align="left">✔️</td></tr>
+<tr><td><a href="/">Image Extend</a></td><td align="left">Left, Right, Top, bottom, BG White %</td><td align="left">✔️</td></tr>
 </table>
 
 ### Image Postprocessing
@@ -36,7 +36,7 @@ Here is an overview of the nodes available in this first version of the pack. Th
 <tr><td><a href="/">Image Contrast</a></td><td align="left">0.0>5.0 / Step: 0.1</td><td align="left">✔️</td></tr>
 <tr><td><a href="/">Image Greyscale</a></td><td align="left">No value</td><td align="left">✔️</td></tr>
 <tr><td><a href="/">Image RGB</a></td><td align="left">Red,Green, Blue (0-255 /Step: 1)</td><td align="left">✔️</td></tr>
-<tr><td><a href="/">Image Difference</a></td><td align="left">2 input images, no value</td><td align="left">⚠️</td></tr>
+<tr><td><a href="/">Image Difference</a></td><td align="left">2 input images, no value</td><td align="left">✔️</td></tr>
 </table>
 
 ### Image Compositing
