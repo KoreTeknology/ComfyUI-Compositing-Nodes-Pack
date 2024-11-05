@@ -37,8 +37,8 @@ Here is an overview of the nodes available in this first version of the pack. Th
 <tr><td><a href="/">Image Greyscale</a></td><td align="left">No value</td><td align="left">✔️</td></tr>
 <tr><td><a href="/">Image RGB</a></td><td align="left">Red,Green, Blue (0-255 /Step: 1)</td><td align="left">✔️</td></tr>
 <tr><td><a href="/">Image Difference</a></td><td align="left">2 input images, no value</td><td align="left">✔️</td></tr>
-<tr><td><a href="/">Image Palette Tint</a></td><td align="left">2 input images, intensity, lightness</td><td align="left">⚠️</td></tr>
-<tr><td><a href="/">Image Palette Extract</a></td><td align="left">number of colors, line/square</td><td align="left">⚠️</td></tr>
+<tr><td><a href="/">Apply Color Palette</a></td><td align="left">2 input images, intensity, lightness</td><td align="left">⚠️</td></tr>
+<tr><td><a href="/">Extract Color Palette</a></td><td align="left">number of colors, line/square</td><td align="left">⚠️</td></tr>
 </table>
 
 ### Image Compositing
