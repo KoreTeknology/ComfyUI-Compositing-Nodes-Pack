@@ -42,6 +42,8 @@ Here is an overview of the nodes available in this first version of the pack. Th
 <table>
 <tr><th align="left", width="250">Nodes</th><th align="left", width="432">Values</th><th align="left", width="200">State</th></tr>
 <tr><td><a href="/">Image Overlay</a></td><td align="left">2 input images, x, y, alpha (RGBA)</td><td align="left">⚠️</td></tr>
+<tr><td><a href="/">Image Concatenate</a></td><td align="left">Inputs number, Direction, Match size</td><td align="left">⚠️</td></tr>
+<tr><td><a href="/">Image Extend</a></td><td align="left">Left, Right, Top, bottom, BG White %</td><td align="left">⚠️</td></tr>
 </table>
 
 Some extra nodes we need sometimes:
