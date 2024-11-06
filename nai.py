@@ -31,7 +31,7 @@ def log(message, type=None, always=False, name=None):
     if name is None:
         name = get_extension_config()["name"]
 
-    print(f"(NAIIIIIII:{name}) {message}")
+    print(f"(NAI:{name}) {message}")
 
 # --------
 # DIR PATHS
@@ -64,14 +64,14 @@ def get_comfy_dir(subpath=None, mkdir=False):
 def get_web_ext_dir():
     config = get_extension_config()
     name = config["name"]
-    dir = get_comfy_dir("web/extensions/nai")
+    dir = get_comfy_dir("web/extensions/compositing")
     if not os.path.exists(dir):
         os.makedirs(dir)
     dir = os.path.join(dir, name)
     return dir
 
 # --------
-# ESSENTIALS CONFIG FILE -> JSON
+# Compositing CONFIG FILE -> JSON
 # --------
 
 def get_extension_config(reload=False):
@@ -79,8 +79,8 @@ def get_extension_config(reload=False):
     if reload == False and config is not None:
         return config
 
-    config_path = get_ext_dir("nai.json")
-    default_config_path = get_ext_dir("nai.default.json")
+    config_path = get_ext_dir("config.json")
+    default_config_path = get_ext_dir("config.default.json")
     if not os.path.exists(config_path):
         if os.path.exists(default_config_path):
             shutil.copy(default_config_path, config_path)
@@ -90,7 +90,7 @@ def get_extension_config(reload=False):
                 return {"name": "Unknown", "version": -1}
     
         else:
-            log("Missing nai.default.json, this extension may not work correctly. Please reinstall the extension.",
+            log("Missing config.default.json, this extension may not work correctly. Please reinstall the extension.",
                 type="ERROR", always=True, name="???")
             print(f"Extension path: {get_ext_dir()}")
             return {"name": "Unknown", "version": -1}

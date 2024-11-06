@@ -14,6 +14,9 @@ class ImageFlip:
     FUNCTION = "flip"
 
     CATEGORY = "image/transform"
+    DESCRIPTION = """
+        Transform the input image along the specified axis.
+    """
 
     def flip(self, image, axis):
         dim = ()

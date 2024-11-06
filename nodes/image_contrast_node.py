@@ -16,7 +16,7 @@ class ImageContrast:
         return {
             "required": {
                 "image": ("IMAGE",),
-                "factor": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 5.0, "step":0.1})
+                "contrast_factor": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 2.0, "step":0.1})
             }
         }
 
@@ -24,10 +24,10 @@ class ImageContrast:
     FUNCTION = "apply_brightness"
     OUTPUT_NODE = True
 
-    def apply_brightness(self, image, factor):
+    def apply_brightness(self, image, contrast_factor):
         pil_image = tensor2pil(image)
         #pil_image = pil_image.convert("RGB")
-        pil_image = ImageEnhance.Contrast(pil_image).enhance(factor)
+        pil_image = ImageEnhance.Contrast(pil_image).enhance(contrast_factor)
         pil_image = pil_image.convert("RGB")
 
         return (pil2tensor(pil_image),)

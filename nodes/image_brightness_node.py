@@ -8,31 +8,34 @@ def tensor2pil(image: Tensor) -> Image.Image:
 
 def pil2tensor(image: Image.Image) -> Tensor:
     return torch.from_numpy(np.array(image).astype(np.float32) / 255.0).unsqueeze(0)
- 
-class ImageGreyscale:
+
+class ImageBrightness:
+    CATEGORY = "image/postprocessing"
     @classmethod
     def INPUT_TYPES(cls):
         return {
             "required": {
                 "image": ("IMAGE",),
-            },
+                "brightness_factor": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 2.0, "step":0.1})
+            }
         }
 
     RETURN_TYPES = ("IMAGE",)
-    FUNCTION = "image_greyscale"
+    FUNCTION = "apply_brightness"
+    OUTPUT_NODE = True
 
-    CATEGORY = "image/postprocessing"
-
-    def image_greyscale(self, image):
+    def apply_brightness(self, image, brightness_factor):
         pil_image = tensor2pil(image)
-        greyscaled_image = pil_image.convert("L")
-        return (pil2tensor(greyscaled_image),)
+        #pil_image = pil_image.convert("RGB")
+        pil_image = ImageEnhance.Brightness(pil_image).enhance(brightness_factor)
+        pil_image = pil_image.convert("RGB")
 
-# REG
+        return (pil2tensor(pil_image),)
+
 NODE_CLASS_MAPPINGS = {
-    "Image Greyscale": ImageGreyscale,
+    "Brightness Image": ImageBrightness,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Image Greyscale": "🌅Image Greyscale",
+    "Brightness Image": "🌅Image Brightness",
 }
