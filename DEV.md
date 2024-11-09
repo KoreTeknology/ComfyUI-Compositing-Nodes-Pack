@@ -22,6 +22,9 @@ The final custom nodes pack offers a set of simple custom nodes to be found into
 * adjustments
 * save image with metadata
 
+<img alt="Pack NODES" src="/media/ComfyUI-Compositing Nodes.png">
+
+
 ## New Nodes:
 
 * Image resize
