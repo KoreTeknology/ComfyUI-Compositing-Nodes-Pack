@@ -1,4 +1,4 @@
-# ComfyUI Compositing Nodes Pack
+# ComfyUI Production Nodes Pack (by NAI-00)
 
 <img src="https://img.shields.io/badge/ComfyUI-0.2.6+-green" /> <img src="https://img.shields.io/badge/Custom-Nodes-blue" /> <img src="https://img.shields.io/badge/NAI-00-ffae00" />
 ```py
@@ -7,9 +7,7 @@ NOTE: This project is supported by our community > linkedin.com/groups/13109092/
 USER: https://github.com/KoreTeknology
 ```
 
-### A set of custom nodes that everyone needs to work with composite images!
-
-This is set of custom nodes for your ComfyUI[^1] local installation. It offers the very basic nodes that are missing in the official "Vanilla" package.
+This is set of custom nodes for your ComfyUI[^1] production setup. It offers the very basic nodes that are missing in the official "Vanilla" package.
 It is a research Node based project on *Artificial Intelligence* using ComfyUI visual editor. This repository also includes a set of workflows to test the nodes.
 
 <img alt="essential Nodes Pack NODES" src="/media/screenshot_CENP_nodes.png">
