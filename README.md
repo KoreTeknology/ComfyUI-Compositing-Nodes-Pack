@@ -7,6 +7,8 @@ NOTE: This project is supported by our community > linkedin.com/groups/13109092/
 USER: https://github.com/KoreTeknology
 ```
 
+## !!! WORK IN PROGRESS !!! (Stay tuned)
+
 This is set of custom nodes for your ComfyUI[^1] production setup. It offers the very basic nodes that are missing in the official "Vanilla" package.
 It is a research Node based project on *Artificial Intelligence* using ComfyUI visual editor. This repository also includes a set of workflows to test the nodes.
 
