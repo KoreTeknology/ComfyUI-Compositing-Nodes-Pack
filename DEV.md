@@ -13,6 +13,9 @@ The final custom nodes pack offers a set of simple custom nodes to be found into
 
 <img alt="Pack NODES" src="/media/ComfyUI-Set.png">
 
+## Nodes Design
+
+<img alt="Pack NODES" src="/media/ComfyUI_Design_Media.png">
 
 ## New Nodes:
 
